@@ -1,0 +1,51 @@
+{
+  "name": "noun-project-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for The Noun Project API",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "noun-project-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "noun-project",
+    "icons",
+    "api",
+    "model-context-protocol",
+    "claude"
+  ],
+  "author": "Shridhar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgup/noun-project-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sgup/noun-project-mcp/issues"
+  },
+  "homepage": "https://github.com/sgup/noun-project-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9",
+    "oauth-1.0a": "^2.2.6",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/crypto-js": "^4.2.2",
+    "typescript": "^5.7.2"
+  }
+}
