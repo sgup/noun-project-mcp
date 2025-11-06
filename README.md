@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server for The Noun Project API, enabling Claude Code to search and retrieve icons programmatically.
 
+<a href="https://glama.ai/mcp/servers/@sgup/noun-project-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@sgup/noun-project-mcp/badge" alt="Noun Project Server MCP server" />
+</a>
+
 ## Features
 
 - **Icon Search**: Search for icons with advanced filters (style, line weight, public domain)
